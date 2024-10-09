@@ -1,10 +1,50 @@
 # FAANG Stocks SMA Crossover Backtesting Strategy
 
 ## Disclaimer
-This trading algorithm is provided for research purposes only and does not constitute financial advice. Trading in financial markets involves substantial risk and is not suitable for every investor. Past performance is not indicative of future results. The author assumes no responsibility for any financial losses or damages incurred as a result of using this software. **Use at your own risk.**
+
+#### This trading algorithm is provided for research purposes only and does not constitute financial advice. Trading in financial markets involves substantial risk and is not suitable for every investor. Past performance is not indicative of future results. The author assumes no responsibility for any financial losses or damages incurred as a result of using this software. **Use at your own risk.**
 
 ## Project Overview
 This Python script implements a backtesting strategy for FAANG stocks (AAPL, META, AMZN, NFLX, GOOGL) using a **Simple Moving Average (SMA) Crossover** technique. The objective is to simulate the performance of a trading strategy over a historical time period and evaluate its results.
+
+## Results
+
+Start                                 2005-10-20 19:12:00
+
+End                                   2023-12-29 00:00:00
+
+Period                                 4579 days 09:36:00
+
+Start Value                                       1000000
+
+End Value                                  7836065.826133
+
+Total Return [%]                              3818.032913
+
+Win Rate [%]                                    63.787879
+
+Best Trade [%]                                 218.801657
+
+Worst Trade [%]                                -23.187351
+
+Avg Winning Trade [%]                           91.055868
+
+Avg Losing Trade [%]                           -16.167986
+
+Avg Winning Trade Duration    449 days 04:53:08.571428568
+
+Avg Losing Trade Duration                92 days 03:12:00
+
+Sharpe Ratio                                      0.89464
+
+Calmar Ratio                                     0.570078
+
+Omega Ratio                                        1.1778
+
+Sortino Ratio                                    1.351203
+
+CAGR(compound annual growth rate)                  59.73%
+
 
 ### Key Components
 1. **Libraries and Data Sources:**
@@ -41,24 +81,3 @@ This Python script implements a backtesting strategy for FAANG stocks (AAPL, MET
 1. Clone the repository.
 2. Ensure you have all required libraries installed: `vectorbt`, `yfinance`, and `pandas`.
 3. Run the script with `python faang_backtest_strategy.py`.
-
-## Results
-Start                                 2005-10-20 19:12:00
-End                                   2023-12-29 00:00:00
-Period                                 4579 days 09:36:00
-Start Value                                       1000000
-End Value                                  7836065.826133
-Total Return [%]                              3818.032913
-Win Rate [%]                                    63.787879
-Best Trade [%]                                 218.801657
-Worst Trade [%]                                -23.187351
-Avg Winning Trade [%]                           91.055868
-Avg Losing Trade [%]                           -16.167986
-Avg Winning Trade Duration    449 days 04:53:08.571428568
-Avg Losing Trade Duration                92 days 03:12:00
-Sharpe Ratio                                      0.89464
-Calmar Ratio                                     0.570078
-Omega Ratio                                        1.1778
-Sortino Ratio                                    1.351203
-
-CAGR(compound annual growth rate)                   59.73%
