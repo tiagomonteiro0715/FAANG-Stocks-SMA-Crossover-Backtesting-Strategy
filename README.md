@@ -43,5 +43,22 @@ This Python script implements a backtesting strategy for FAANG stocks (AAPL, MET
 3. Run the script with `python faang_backtest_strategy.py`.
 
 ## Results
-The output includes performance metrics such as total return, Sharpe ratio, and the calculated **Compound Annual Growth Rate (CAGR)** for each stock and the entire portfolio.
+Start                                 2005-10-20 19:12:00
+End                                   2023-12-29 00:00:00
+Period                                 4579 days 09:36:00
+Start Value                                       1000000
+End Value                                  7836065.826133
+Total Return [%]                              3818.032913
+Win Rate [%]                                    63.787879
+Best Trade [%]                                 218.801657
+Worst Trade [%]                                -23.187351
+Avg Winning Trade [%]                           91.055868
+Avg Losing Trade [%]                           -16.167986
+Avg Winning Trade Duration    449 days 04:53:08.571428568
+Avg Losing Trade Duration                92 days 03:12:00
+Sharpe Ratio                                      0.89464
+Calmar Ratio                                     0.570078
+Omega Ratio                                        1.1778
+Sortino Ratio                                    1.351203
 
+CAGR(compound annual growth rate)                   59.73%
